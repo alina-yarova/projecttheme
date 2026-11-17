@@ -1,0 +1,61 @@
+/*
+ * Typography
+ */
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  color: var(--theme-color-secondary-pink-300);
+  font-family: var(--theme-font-heading);
+  font-size: var(--theme-font-size-body-1);
+  line-height: 1.5;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.intro-kicker {
+  letter-spacing: 0.08em;
+  opacity: 0.75;
+}
+
+.intro-title {
+  line-height: 1.1;
+}
+
+.intro-text {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+@font-face {
+  font-family: "Basenji";
+  src: url("Basenji-SemiBold.otf") format("otf");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AnekTamil";
+  src: url("AnekTamil-Bold.ttf") format("ttf");
+  font-weight: 100 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AnekTamil";
+  src: url("AnekTamil-Medium.ttf") format("ttf");
+  font-weight: 100 800;
+  font-display: swap;
+}

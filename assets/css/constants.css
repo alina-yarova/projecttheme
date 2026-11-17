@@ -1,0 +1,54 @@
+/*
+ * Constants
+ *
+ * Keep colors and reusable theme values here.
+ */
+:root {
+  --theme-color-primary-green-100: #AAF4CC;
+  --theme-color-primary-green-200: #56E99A;
+  --theme-color-primary-green-300: #1AC569;
+  --theme-color-primary-green-400: #149952;
+  --theme-color-primary-green-500: #0E6E3B;
+
+  --theme-color-secondary-pink-100: #F7AFD2;
+  --theme-color-secondary-pink-200: #EF5FA4;
+  --theme-color-secondary-pink-300: #E92784;
+  --theme-color-secondary-pink-400: #BF1366;
+  --theme-color-secondary-pink-500: #870E48;
+
+  --theme-color-blue-100: #BAE2F5;
+  --theme-color-blue-200: #75C6EA;
+  --theme-color-blue-300: #30A9E0;
+  --theme-color-blue-400: #1B86B7;
+  --theme-color-blue-500: #135F81;
+
+  --theme-color-beige-100: #F7F2EC;
+  --theme-color-beige-200: #E0CDB6;
+  --theme-color-beige-300: #CAA981;
+  --theme-color-beige-400: #B3844B;
+  --theme-color-beige-500: #7D5C35;
+
+  --theme-color-yellow-100: #FFF4AA;
+  --theme-color-yellow-200: #FFEA55;
+  --theme-color-yellow-300: #FFDF00;
+  --theme-color-yellow-400: #C6AD00;
+  --theme-color-yellow-500: #8C7B00;
+
+  --theme-color-light-orange-100: #FFD3B6;
+  --theme-color-light-orange-200: #FFAA71;
+  --theme-color-light-orange-300: #FF802D;
+  --theme-color-light-orange-400: #E75C00;
+  --theme-color-light-orange-500: #A34100;
+
+  --theme-color-orange-100: #FFD3B6;
+
+  --theme-transition: all 0.3s ease-in-out;
+
+  --theme-font-heading: "Basenji", sans-serif;
+  --theme-font-body: "AnekTamil", sans-serif;
+
+  --theme-font-size-body-1: 18px;
+  --theme-font-size-body-2: 16px;
+  --theme-font-size-body-3: 14px;
+  --theme-font-size-heading-1: 48px;
+}
